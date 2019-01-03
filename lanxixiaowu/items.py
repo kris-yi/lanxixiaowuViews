@@ -14,3 +14,4 @@ class LanxixiaowuItem(scrapy.Item):
     name = scrapy.Field()
     views = scrapy.Field()
     title = scrapy.Field()
+    url = scrapy.Field()
